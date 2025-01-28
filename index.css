@@ -1,0 +1,109 @@
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    z-index: -1; 
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1; 
+    background-color: #0000007a;
+    padding-left: 3%;
+}
+
+.navbar {
+    position: absolute; /* Position it relative to its parent (e.g., #overlay) */
+    top: 5%; /* Adjusts the position from the top of the screen */
+    right: 5%; /* Adjusts the position from the right of the screen */
+}
+
+.navbar ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    color: white;
+    font-size: 110%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: right;
+}
+
+.navbar li {
+    margin: 15% 0; 
+}
+
+.navbar a {
+    text-decoration: none; /* Removes the underline from links */
+    color: white; /* Makes the text color white */
+}
+
+.navbar a.active {
+    font-weight: 500; /* Highlights the active link with bold text */
+    color: #FFD118;
+}
+
+
+.inside {
+    position: absolute; /* Position it relative to the parent (#overlay) */
+    bottom: 5%; /* Place it slightly above the very bottom */
+    width: 100%; /* Optional: Ensures it spans the width of #overlay */
+}
+
+.creds {
+    position: absolute; /* Position it relative to the parent (#overlay) */
+    bottom: 1%; /* Place it slightly above the very bottom */
+    right: 4%;
+    color: #B78575;
+    font-size: 60%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro {
+    color: white;
+    font-size: 600%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.name {
+    color: #FFD118;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.headline {
+    color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
